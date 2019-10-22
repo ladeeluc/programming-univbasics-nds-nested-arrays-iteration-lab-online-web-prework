@@ -24,17 +24,16 @@ new_array
     
 end
 
-binding.pry
-0
-# def total_even_pairs(src)
-# total = 0
- 
-# if src.even?[0] && src.even[1]
-#   total = scr.sum
- 
-# end
-# src
-# end
+
+def total_even_pairs(src)
+total = 0
+counter = 0
+
+while i < src.length 
+
+do src[0]
+
+end
 
 
 
