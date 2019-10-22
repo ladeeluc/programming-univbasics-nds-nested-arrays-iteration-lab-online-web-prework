@@ -33,6 +33,8 @@ while i < src.length
 
 do src[i][0] % 2 == 0 && scr [i][1] == 0
 
+total = scr [i][0] + scr [i][1]
+
 end
 
 
