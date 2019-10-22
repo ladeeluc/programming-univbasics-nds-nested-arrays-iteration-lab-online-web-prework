@@ -30,11 +30,8 @@ total = 0
 counter = 0
 
 while i < src.length 
-
 if (src[i][0] % 2 == 0) && (scr[i][1] == 0)
-
 total += (scr[i][0]) + (scr[i][1])
-
 end
 i += 1 
 end
