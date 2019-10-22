@@ -1,8 +1,8 @@
-
+require 'pry'
 
 def join_ingredients(src)
       new_array = []
-
+      
         src.each do |elem1|
         new_array << ("I love #{elem1[0]} and #{elem1[1]} on my pizza" )
     end
@@ -16,21 +16,25 @@ new_array = []
 counter = 0
 
 while counter < src.length
+#binding.pry
   new_array << src[counter].max
-  counter =+ 1
+  counter += 1
 end
 new_array
     
 end
 
-
-
-def total_even_pairs(src)
- new_array = []
-  if scr.even? == true
-  new_array << scr.sum 
-  end
-end
+binding.pry
+0
+# def total_even_pairs(src)
+# total = 0
+ 
+# if src.even?[0] && src.even[1]
+#   total = scr.sum
+ 
+# end
+# src
+# end
 
 
 
